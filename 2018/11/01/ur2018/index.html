@@ -6,27 +6,23 @@
     <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="mulkkyul - blog">
-    <title>Error Regression Scheme - Part 2 - mulkkyul - blog</title>
+    <title>Presentation @ Ubiquitous Robots 2018 (UR2018) - mulkkyul - blog</title>
     <meta name="author" content="Jungsik Hwang">
     
     
     
-    <meta name="description" content="Part 2. How We Do ItIn the previous posting, I briefly introduced the Error Regression Scheme (ERS). In this posting, I’ll talk a bit more about how we actually use the ERS in our experiments.">
-<meta name="keywords" content="Cognitive Neurorobotics">
+    <meta name="description" content="A few months ago, I attended a conference called UR 2018 (Ubiquitous Robots). I presented one of my works [1] about (kind of) computational creativity. This project started when I first joined the PhD">
+<meta name="keywords" content="Cognitive Neurorobotics,Computational Creativity,Conference">
 <meta property="og:type" content="blog">
-<meta property="og:title" content="Error Regression Scheme - Part 2">
-<meta property="og:url" content="http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/index.html">
+<meta property="og:title" content="Presentation @ Ubiquitous Robots 2018 (UR2018)">
+<meta property="og:url" content="http://mulkkyul.github.io/2018/11/01/ur2018/index.html">
 <meta property="og:site_name" content="mulkkyul - blog">
-<meta property="og:description" content="Part 2. How We Do ItIn the previous posting, I briefly introduced the Error Regression Scheme (ERS). In this posting, I’ll talk a bit more about how we actually use the ERS in our experiments.">
+<meta property="og:description" content="A few months ago, I attended a conference called UR 2018 (Ubiquitous Robots). I presented one of my works [1] about (kind of) computational creativity. This project started when I first joined the PhD">
 <meta property="og:locale" content="en">
-<meta property="og:image" content="http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/eq1.gif">
-<meta property="og:image" content="http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/eq2.gif">
-<meta property="og:image" content="http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/eq3.gif">
-<meta property="og:updated_time" content="2018-08-21T05:37:53.000Z">
+<meta property="og:updated_time" content="2018-11-01T07:24:20.018Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Error Regression Scheme - Part 2">
-<meta name="twitter:description" content="Part 2. How We Do ItIn the previous posting, I briefly introduced the Error Regression Scheme (ERS). In this posting, I’ll talk a bit more about how we actually use the ERS in our experiments.">
-<meta name="twitter:image" content="http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/eq1.gif">
+<meta name="twitter:title" content="Presentation @ Ubiquitous Robots 2018 (UR2018)">
+<meta name="twitter:description" content="A few months ago, I attended a conference called UR 2018 (Ubiquitous Robots). I presented one of my works [1] about (kind of) computational creativity. This project started when I first joined the PhD">
     
     
         
@@ -37,6 +33,12 @@
         <meta property="og:image" content="http://mulkkyul.github.io/assets/images/jungsik.jpg"/>
     
     
+        <meta property="og:image" content="http://mulkkyul.github.io/2018/11/01/ur2018/LRG_DSC06439.JPG"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://mulkkyul.github.io/2018/11/01/ur2018/LRG_DSC06439.JPG" />
+    
+    
+        <meta property="og:image" content="http://mulkkyul.github.io/2018/11/01/ur2018/LRG_DSC06439.JPG"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://mulkkyul.github.io/2018/11/01/ur2018/LRG_DSC06439.JPG" />
     
     
     <!--STYLES-->
@@ -212,9 +214,17 @@
 </nav>
 
             
+        <div class="post-header-cover
+                    text-left
+                    post-header-cover--full"
+             style="background-image:url('/2018/11/01/ur2018/LRG_DSC06439.JPG');"
+             data-behavior="4">
+            
+        </div>
+
             <div id="main" data-behavior="4"
-                 class="
-                        hasCoverMetaIn
+                 class="hasCover
+                        hasCoverMetaOut
                         ">
                 
 <article class="post" itemscope itemType="http://schema.org/BlogPosting">
@@ -223,20 +233,20 @@
         <div class="post-header main-content-wrap text-left">
     
         <h1 class="post-title" itemprop="headline">
-            Error Regression Scheme - Part 2
+            Presentation @ Ubiquitous Robots 2018 (UR2018)
         </h1>
     
     
         <div class="post-meta">
-    <time itemprop="datePublished" datetime="2018-03-16T12:00:13+09:00">
+    <time itemprop="datePublished" datetime="2018-11-01T16:16:44+09:00">
 	
-		    Mar 16, 2018
+		    Nov 01, 2018
     	
     </time>
     
         <span>in </span>
         
-    <a class="category-link" href="/categories/Cognitive-Neurorobotics/">Cognitive Neurorobotics</a>
+    <a class="category-link" href="/categories/Cognitive-Neurorobotics/">Cognitive Neurorobotics</a>, <a class="category-link" href="/categories/Cognitive-Neurorobotics/Novel-Action-Generation/">Novel Action Generation</a>
 
 
     
@@ -247,45 +257,31 @@
     
     <div class="post-content markdown" itemprop="articleBody">
         <div class="main-content-wrap">
-            <h2 id="Part-2-How-We-Do-It"><a href="#Part-2-How-We-Do-It" class="headerlink" title="Part 2. How We Do It"></a>Part 2. How We Do It</h2><p>In <a href="https://mulkkyul.github.io/2018/03/15/cogRobot-ers-part1/">the previous posting</a>, I briefly introduced the Error Regression Scheme (ERS). In this posting, I’ll talk a bit more about how we actually use the ERS in our experiments.</p>
+            <p>A few months ago, I attended a conference called UR 2018 (Ubiquitous Robots). I presented one of my works <a href="https://arxiv.org/abs/1805.05537" target="_blank" rel="external">[1]</a> about (kind of) computational creativity. This project started when I first joined the PhD Program. Due to some reasons, it has been discontinued for several years and I recently started again. I couldn’t develop it further (yet). Still, there is some interesting stuff that I’d like to share. </p>
 <a id="more"></a>
-<h2 id="Before-We-Start-Keywords"><a href="#Before-We-Start-Keywords" class="headerlink" title="Before We Start - Keywords"></a>Before We Start - Keywords</h2><p>Before we start to talk about the ERS, there are a few keywords to begin with.</p>
-<h4 id="Internal-State-Activation-Value-and-Initial-State"><a href="#Internal-State-Activation-Value-and-Initial-State" class="headerlink" title="Internal State, Activation Value and Initial State"></a><strong>Internal State, Activation Value and Initial State</strong></h4><p><strong>Internal states</strong> (<em>u</em>) are the neuron’s value before the activation function (<em>f</em>) is applied. Then, <em>y</em> is the <strong>activation value</strong> of the neuron. That is,</p>
-<div class="figure " style="width:;"><img class="fig-img" src="eq1.gif" alt=""></div>
-<p>where <em>f</em> is the activation function, such as sigmoid, hyperbolic tangent, etc. <strong>Initial state</strong> is “the <strong>initial internal states</strong>“ of the neuron. “Initial” indicates the onset of the computation (usually t = 0). So, initial states refer to the internal states of the neurons at t = 0.</p>
-<h2 id="Basic-Ideas"><a href="#Basic-Ideas" class="headerlink" title="Basic Ideas"></a>Basic Ideas</h2><p>As I mentioned in <a href="https://mulkkyul.github.io/2018/03/15/cogRobot-ers-part1/">the previous posting</a>, the simplest way to understand the ERS is to consider it as a sort of online optimization techniques. During the conventional training process, we optimize weights and biases. <strong>During the ERS, we optimize the initial states only, with given (optimized) weights and biases.</strong> To perform the ERS, we first have to consider the followings:</p>
-<h4 id="When-do-we-perform-the-ERS"><a href="#When-do-we-perform-the-ERS" class="headerlink" title="When do we perform the ERS?"></a>When do we perform the ERS?</h4><p>The ERS is performed in an online manner. That is, it is performed at each time step (t) during the testing phase. </p>
-<h4 id="Which-error-should-be-minimized"><a href="#Which-error-should-be-minimized" class="headerlink" title="Which error should be minimized?"></a>Which error should be minimized?</h4><p>At each time step t, we minimized the error at the output layer. To be more specific, the error is a sum of the errors obtained in the recent past (from t-w to t), and the error is often defined as the distance between the model’s output and the target (i.e. teaching signal). That is,</p>
-<div class="figure " style="width:;"><img class="fig-img" src="eq2.gif" alt=""></div>
-<p>This shows one of the differences between the conventional training method and the ERS. During the conventional training method, we consider the error from the beginning to the end of the sequence (t = 0 to T, where T is the size of the sequence). <strong>During the ERS, the error in the immediate past (t-W to t) is considered.</strong> This time span is called the <strong>Error Regression Window</strong> and its size is noted as <strong>W</strong>.</p>
-<h4 id="Error-Regression-Window"><a href="#Error-Regression-Window" class="headerlink" title="*Error Regression Window"></a>*Error Regression Window</h4><p>The time (from t-W to t) indicates the immediate past and we are only interested in the error during this period of time (i.e. within the Error Regression Window). The size of the error regression window can be considered as how long we observe the past information. Then, we can have another questions - how do we set the size of the window? Well, it depends on the characteristics of the data that the model handles. If the size of the window is small, sometimes the model can be trapped in the local minimum. If the size of the window is extremely small (say k = 1), then the ERS is performed in a way that the model tries to make accurate prediction for only 1 time step. There could be many solutions (i.e. local minimum) which generate correct prediction for that time step. If the size of the window is too big, it might be hard to find the solutions and also it might slow down the computation. The rule of thumb (from my experience) is that the size of the window might need to be big enough to contain 0.5 ~ 1 cycle of the data. </p>
-<h4 id="How-do-we-minimize-the-error"><a href="#How-do-we-minimize-the-error" class="headerlink" title="How do we minimize the error?"></a>How do we minimize the error?</h4><p>During the ERS, the initial states of the Error Regression Window ($u_{t-W}$) is iteratively updated to minimize the error. That is,</p>
-<div class="figure " style="width:;"><img class="fig-img" src="eq3.gif" alt=""></div>
-<p> $\eta$ is a learning rate, E is an error and k indicates the index of the iteration. The above computation is performed iteratively at each time step. <strong>The maximum number of k is another hyper-parameter in the ERS that has to be specified by the experimenter.</strong> I often set K = 50 or 100 depending on the task. </p>
-<h4 id="What-does-it-mean-by-updating-the-initial-states-of-the-window"><a href="#What-does-it-mean-by-updating-the-initial-states-of-the-window" class="headerlink" title="*What does it mean by updating the initial states of the window?"></a>*What does it mean by updating the initial states of the window?</h4><p>During the ERS, we only update the initial states of the window - which is “past information” which predicts the observation in the immediate past. So this can be roughly interpreted as follows. When there is an prediction error at the current time, we update (modify) our belief in a short time ago. In computation, the current time step (t) and the immediate past (t-W) can be explicitly distinguished. But how do we perceive time? Is there any distinct separation between past and now? What’s nowness? In Jun’s book, this concept is explained in terms of retention, primary impression and protention. If you’re interested in this concept behind the ERS, <strong>please check Jun’s book Chapter 3.3. Time Perception: How Can the Flow of Subjective Experiences Be Objectified?</strong>.</p>
-<h2 id="So-How-Do-We-Do-the-ERS-Pseudo-Code"><a href="#So-How-Do-We-Do-the-ERS-Pseudo-Code" class="headerlink" title="So, How Do We Do the ERS? - Pseudo Code"></a>So, How Do We Do the ERS? - Pseudo Code</h2><p>This example illustrates how we perform the ERS. It’s pretty simple and straightforward.</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># At the onset of the ERS, the initial states are set with the neutral values.</span></div><div class="line">InitialStates = zeros(NUMBER_OF_NEURONS)</div><div class="line"><span class="comment"># For each time step t, we compute the followings.</span></div><div class="line"><span class="keyword">for</span> t <span class="keyword">in</span> xrange(<span class="number">1</span>, SIZE_OF_THE_SEQUENCE):</div><div class="line">  <span class="comment"># At each time step t, we compute these iteratively (MAX_ITERATION = K)</span></div><div class="line">  <span class="keyword">for</span> k <span class="keyword">in</span> xrange(MAX_ITERATION):    </div><div class="line">    <span class="comment"># Generate prediction (output) with the given initial states of the window.</span></div><div class="line">    output = GeneratePredictionWithinWindow(InitialStates)</div><div class="line">    <span class="comment"># Compute the prediction error (difference D between output and target)</span></div><div class="line">    error = SUM(DISTANCE(output,target))</div><div class="line">    <span class="comment"># Update the initial states in the direction of minimizing the error</span></div><div class="line">    newInitialStates = UpdateInitialStates(MINIMIZE(error))</div><div class="line">    InitialStates = newInitialStates</div><div class="line">  <span class="comment"># End of computation for 1 time step. Prepare the internal states for next time step</span></div><div class="line">  InternalStates = GetInternalStates(InitialStates)</div><div class="line">  InitialStates = IntrenalStates[t-w+<span class="number">1</span>]</div></pre></td></tr></table></figure>
-<p>At each time t, we iteratively update InitialStates in the direction of minimizing error. Once the iteration ends, we move on to the next time step (t+1). Note that generation of prediction is done in the closed-loop manner. It means the model’s output at t is fed back to the model’s input at t+1. See <a href="https://mulkkyul.github.io/2018/01/11/cogRobot-terms/">here</a> for more explanation about the closed-loop generation.</p>
-<h2 id="Tips-amp-Tricks"><a href="#Tips-amp-Tricks" class="headerlink" title="Tips &amp; Tricks"></a>Tips &amp; Tricks</h2><ul>
-<li>At the beginning of the ERS, there are cases where current time step is smaller than the size of window (W). For instance, there can be a case where W is 40 and the current time step is 3. To handle this kinds of situations, you can either start the ERS from the time step W (e.g., performing the ERS from t = 40), or you can perform the ERS with the less info at the beginning of the ERS (e.g, use 1 to t, instead of t-40 to t).</li>
-<li>Usually, the learning rate during the ERS is bigger than the one during the training process.</li>
-<li>The size of the Error Regression Window depends on the task. Just try with the different length and see what happens.  I prefer to set it big enough to contain 1 cycle of the data.</li>
-<li>The number of iteration at each time step also depends on the task. Also note that it doesn’t need to be  same across the ERS. For instance, if the error at the current time step is small enough, you may be able to skip to the next time step without iterating K times (kind of adaptive iteration).</li>
+<h2 id="Overview"><a href="#Overview" class="headerlink" title="Overview"></a>Overview</h2><p>So the goal of the study was to make a robot which can learn some basic actions and also generate novel (and creative) actions from these learned actions. So, I focused on the two things:</p>
+<ul>
+<li><strong>How can a robot generate novel actions?</strong><ul>
+<li>There was a <a href="https://ieeexplore.ieee.org/document/5175521/" target="_blank" rel="external">previous study [2]</a> which used a dynamic neural network model to create novel actions of a robot. In line with that study, I assumed that <strong>novel actions can emerge from non-linear memory dynamics.</strong></li>
+<li>This machine learning approach to computational creativity provides a suitable platform to investigate creativity <strong>in relation to knowledge</strong>.</li>
 </ul>
-<h2 id="Pros-amp-Cons-of-ERS"><a href="#Pros-amp-Cons-of-ERS" class="headerlink" title="Pros &amp; Cons of ERS"></a>Pros &amp; Cons of ERS</h2><h3 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h3><ul>
-<li>The model can adapt to changing environment by consistently updating its internal states.</li>
-<li>Also, the model can recognize intention behind the perceived observation.</li>
-<li>(I think) It’s a cool way of implementing PE minimization in the neural network models.</li>
+</li>
+<li><strong>What are novel and creative actions? How can it be differentiated from some random (or noisy) actions?</strong><ul>
+<li>I couldn’t find nice measures of creativity that I can use for this study. So I tried to measure the level of creativity of the robot’s action in terms of three aspects: <strong>appropriateness, novelty, and diversity</strong><ul>
+<li>Appropriateness: The actions should be usable (e.g., it should change over time. Otherwise, it’s just static posture. It shouldn’t be changing too fast. Otherwise, it might damage the robot’s actuators)</li>
+<li>Novelty: The actions generated from the network should be different from the learned actions.</li>
+<li>Diversity: The actions generated from the network should be different each other. </li>
 </ul>
-<h3 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h3><ul>
-<li>Computation of the ERS can be demanding sometimes, if you use high-dimensional data at the output layer (e.g., pixel-level images)</li>
-<li>Additional hyper-parameters (size of the window, number of iteration) are required. </li>
+</li>
 </ul>
-<p>In the next posting, I’ll talk about what I found from performing the ERS on my model.</p>
-<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ol>
-<li>J. Tani, Exploring Robotic Minds: Actions, Symbols, and Consciousness As Self-Organizing Dynamic Phenomena. New York, NY, USA: Oxford Univ. Press, 2016.</li>
-<li>J. Hwang, J. Kim, A. Ahmadi, M. Choi and J. Tani, “Dealing With Large-Scale Spatio-Temporal Patterns in Imitative Interaction Between a Robot and a Human by Using the Predictive Coding Framework,” in <em>IEEE Transactions on Systems, Man, and Cybernetics: Systems</em>, vol. PP, no. 99, pp. 1-14.</li>
-</ol>
+</li>
+</ul>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a><strong>Reference</strong></h2><p>[1] Hwang, J., &amp; Tani, J. (2018). A Dynamic Neural Network Approach to Generating Robot’s Novel Actions: A Simulation Experiment. <em>Presented at the 15th International Conference on Ubiquitous Robots (UR2018).</em></p>
+<ul>
+<li><a href="https://arxiv.org/abs/1805.05537" target="_blank" rel="external">Paper on arXiv</a></li>
+<li><a href="spotlight-20180620.pdf">PPT Slides</a> </li>
+<li><a href="poster-20180621.pdf">Poster</a></li>
+</ul>
 
             
         </div>
@@ -295,7 +291,7 @@
             <div class="post-footer-tags">
                 <span class="text-color-light text-small">TAGGED IN</span><br/>
                 
-    <a class="tag tag--primary tag--small t-link" href="/tags/Cognitive-Neurorobotics/">Cognitive Neurorobotics</a>
+    <a class="tag tag--primary tag--small t-link" href="/tags/Cognitive-Neurorobotics/">Cognitive Neurorobotics</a> <a class="tag tag--primary tag--small t-link" href="/tags/Computational-Creativity/">Computational Creativity</a> <a class="tag tag--primary tag--small t-link" href="/tags/Conference/">Conference</a>
 
             </div>
         
@@ -305,7 +301,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/04/24/p-vmdnn-code-released/"  data-tooltip="P-VMDNN in Tensorflow">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -313,7 +309,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/03/15/cogRobot-ers-part1/" data-tooltip="Error Regression Scheme - Part 1">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/11/01/jnns2018/" data-tooltip="Presentation at JNNS 2018">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -331,7 +327,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-facebook-official"></i>
                 </a>
             </li>
@@ -339,7 +335,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
@@ -347,7 +343,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-google-plus"></i>
                 </a>
             </li>
@@ -397,7 +393,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/04/24/p-vmdnn-code-released/"  data-tooltip="P-VMDNN in Tensorflow">
+                    <a class="post-action-btn btn btn--disabled">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -405,7 +401,7 @@
             </li>
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/03/15/cogRobot-ers-part1/" data-tooltip="Error Regression Scheme - Part 1">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/11/01/jnns2018/" data-tooltip="Presentation at JNNS 2018">
                 
                     <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
                     <i class="fa fa-angle-right"></i>
@@ -423,7 +419,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-facebook-official"></i>
                 </a>
             </li>
@@ -431,7 +427,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-twitter"></i>
                 </a>
             </li>
@@ -439,7 +435,7 @@
             
             
             <li class="post-action hide-xs">
-                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-google-plus"></i>
                 </a>
             </li>
@@ -470,7 +466,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
                 </a>
             </li>
@@ -478,7 +474,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-twitter"></i><span>Share on Twitter</span>
                 </a>
             </li>
@@ -486,7 +482,7 @@
             
             
             <li class="share-option">
-                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/">
+                <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://mulkkyul.github.io/2018/11/01/ur2018/">
                     <i class="fa fa-google-plus"></i><span>Share on Google+</span>
                 </a>
             </li>
@@ -773,9 +769,9 @@
     
         <script>
              var disqus_config = function () {
-                 this.page.url = 'http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/';
+                 this.page.url = 'http://mulkkyul.github.io/2018/11/01/ur2018/';
                  
-                    this.page.identifier = '2018/03/16/cogRobot-ers-part2/';
+                    this.page.identifier = '2018/11/01/ur2018/';
                  
              };
             (function() {
