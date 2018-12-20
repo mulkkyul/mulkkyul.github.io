@@ -23,7 +23,7 @@
 <meta property="og:image" content="http://mulkkyul.github.io/2018/01/11/2017OIST-Science-Festival/IMG_4346.JPG">
 <meta property="og:image" content="http://mulkkyul.github.io/2018/01/11/2017OIST-Science-Festival/tv1.jpg">
 <meta property="og:image" content="http://mulkkyul.github.io/2018/01/11/2017OIST-Science-Festival/tv2.png">
-<meta property="og:updated_time" content="2018-08-21T05:37:53.190Z">
+<meta property="og:updated_time" content="2018-08-21T05:37:53.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="늦은 - 2017 OIST Science Festival 후기">
 <meta name="twitter:description" content="2017년 11월 19일. OIST에서 Science Festival가 열렸다. 일종의 Open Campus같은 것인데,  KAIST에서 하던 Open Campus랑은 많이 달랐다. (OIST가 KAIST보다 훨씬 규모가 작아서 그런지) 행사 준비를 하고 진행을 하면서, 학교측에서 행사 관리/운영을 되게 잘하는구나 하고 느꼈다. 그리고 OIST는 이런 류의">
@@ -733,7 +733,7 @@
                 data-message-zero="no post found"
                 data-message-one="1 post found"
                 data-message-other="{n} posts found">
-                18 posts found
+                19 posts found
             </p>
         </div>
     </div>
@@ -761,9 +761,24 @@
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
-        </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+        </script>
     
 
 
-    </body>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
 </html>

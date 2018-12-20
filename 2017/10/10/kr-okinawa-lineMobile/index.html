@@ -19,7 +19,7 @@
 <meta property="og:site_name" content="mulkkyul - blog">
 <meta property="og:description" content="오키나와에 도착하고 제일 먼저 한 일들 중 하나가 핸드폰 개통하는 것이었다.  한국의 메이저 통신사 (SKT/KT/LG 등)에 해당하는 일본 내 메이저 통신사들인 docomo와 au 쪽을 먼저 알아보았으나, 너무 비싼 관계로 패스하고 저가 통신사들로 알아보았다.">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2018-08-21T05:37:53.190Z">
+<meta property="og:updated_time" content="2018-08-21T05:37:53.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="라인 모바일 개통 및 한달 사용 후기">
 <meta name="twitter:description" content="오키나와에 도착하고 제일 먼저 한 일들 중 하나가 핸드폰 개통하는 것이었다.  한국의 메이저 통신사 (SKT/KT/LG 등)에 해당하는 일본 내 메이저 통신사들인 docomo와 au 쪽을 먼저 알아보았으나, 너무 비싼 관계로 패스하고 저가 통신사들로 알아보았다.">
@@ -765,7 +765,7 @@
                 data-message-zero="no post found"
                 data-message-one="1 post found"
                 data-message-other="{n} posts found">
-                18 posts found
+                19 posts found
             </p>
         </div>
     </div>
@@ -793,9 +793,24 @@
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
-        </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+        </script>
     
 
 
-    </body>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
 </html>

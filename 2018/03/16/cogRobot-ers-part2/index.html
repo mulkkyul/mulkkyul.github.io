@@ -22,7 +22,7 @@
 <meta property="og:image" content="http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/eq1.gif">
 <meta property="og:image" content="http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/eq2.gif">
 <meta property="og:image" content="http://mulkkyul.github.io/2018/03/16/cogRobot-ers-part2/eq3.gif">
-<meta property="og:updated_time" content="2018-08-21T05:37:53.190Z">
+<meta property="og:updated_time" content="2018-08-21T05:37:53.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Error Regression Scheme - Part 2">
 <meta name="twitter:description" content="Part 2. How We Do ItIn the previous posting, I briefly introduced the Error Regression Scheme (ERS). In this posting, I’ll talk a bit more about how we actually use the ERS in our experiments.">
@@ -758,7 +758,7 @@
                 data-message-zero="no post found"
                 data-message-one="1 post found"
                 data-message-other="{n} posts found">
-                18 posts found
+                19 posts found
             </p>
         </div>
     </div>
@@ -786,9 +786,24 @@
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
-        </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+        </script>
     
 
 
-    </body>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
 </html>

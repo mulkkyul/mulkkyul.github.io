@@ -20,7 +20,7 @@
 <meta property="og:description" content="A few months ago, I attended a conference called UR 2018 (Ubiquitous Robots). I presented one of my works [1] about (kind of) computational creativity. This project started when I first joined the PhD">
 <meta property="og:locale" content="en">
 <meta property="og:image" content="http://mulkkyul.github.io/2018/11/01/ur2018/LRG_DSC06439.JPG">
-<meta property="og:updated_time" content="2018-11-01T07:41:12.437Z">
+<meta property="og:updated_time" content="2018-11-01T07:41:12.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Presentation @ Ubiquitous Robots 2018 (UR2018)">
 <meta name="twitter:description" content="A few months ago, I attended a conference called UR 2018 (Ubiquitous Robots). I presented one of my works [1] about (kind of) computational creativity. This project started when I first joined the PhD">
@@ -291,7 +291,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--disabled">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/12/20/scaz/"  data-tooltip="Prof.Brian Scassellati @ CNRU">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -383,7 +383,7 @@
         <ul class="post-actions post-action-nav">
             <li class="post-action">
                 
-                    <a class="post-action-btn btn btn--disabled">
+                    <a class="post-action-btn btn btn--default tooltip--top" href="/2018/12/20/scaz/"  data-tooltip="Prof.Brian Scassellati @ CNRU">
                 
                     <i class="fa fa-angle-left"></i>
                     <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
@@ -744,7 +744,7 @@
                 data-message-zero="no post found"
                 data-message-one="1 post found"
                 data-message-other="{n} posts found">
-                18 posts found
+                19 posts found
             </p>
         </div>
     </div>
@@ -772,9 +772,24 @@
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
-        </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+        </script>
     
 
 
-    </body>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+</body>
 </html>
