@@ -1,0 +1,200 @@
+---
+title: Curriculum Vitae
+comments: false
+actions: false
+---
+
+<p style="text-align: center;">
+<i><font size=5>Curriculum Vitae</font></i> <br>
+<b><font size=6>Jungsik Hwang</font></b> <br>
+<b><font size=6>황중식</font></b> <br>
+Staff Researcher,
+Samsung Advanced Institute of Technology, Samsung Electronics
+130 Samsung-ro, Yeongtong-gu, Suwon-si, Gyeonggi-do, Republic of Korea (16678)
+Email: jungsik.hwang@gmail.com
+URL: http://mulkkyul.github.io
+</p>
+
+<!-- more -->
+
+## Research Interests
+*Robotics*; Cognitive Neurorobotics, Human Robot Interaction, Assistive, Therapeutic and Educational Robots, Long-term Interaction, Robot & Story-telling
+*Human Computer Interaction*; Multimodal Interaction, User eXperience, Interaction Design, Haptics 
+
+
+## Education
+- **Sep 2017 - Jan 2019** 
+  Okinawa Institute of Science and Technology (OIST), Japan
+  Special Research Student at Cognitive Neuro-robotics Research Unit (CNRU)
+  -- Advisor: Prof. Jun Tani
+
+- **Sep 2017 - Jan 2019** 
+  Korea Advanced Institute of Science and Technology (KAIST), Republic of Korea
+  School of Electrical Engineering
+  Ph.D. Student at Semiconductor System Lab.
+  -- Advisor: Prof. Hoi-Jun Yoo
+
+- **Sep 2013 - Aug 2017** 
+
+  Korea Advanced Institute of Science and Technology (KAIST), Republic of Korea
+  School of Electrical Engineering
+  Ph.D. Student at Cognitive Neuro-robotics Lab.
+  -- Advisor: Prof. Jun Tani
+
+- **Feb 2011 - Aug 2013** 
+  Sungkyunkwan University, Republic of Korea
+  Department of Interaction Science
+  Master of Science in Interaction Science
+  -- GPA: 4.33 / 4.5
+  -- Thesis: A Design Methodology for Developing Robotic Services for Children with Autism Spectrum Disorders
+  -- Advisor: Prof. Kwangsu Cho
+  -- Committee: Prof. Sukhan Lee, Prof. S. Shyam Sundar (Penn State, USA)
+
+- **Mar 2003 - Feb 2011** 
+  Sungkyunkwan University, Republic of Korea
+  School of Information and Communication Engineering
+  Bachelor of Science in Engineering
+  -- GPA: 3.83 / 4.5
+  -- Advisor: Prof. Tae-Yong Kuc
+
+- **Jul 2007 – Dec 2008** 
+  Otago Polytechnic, New Zealand
+  Certificates in Information Technology 
+
+
+## Publications
+[Google Scholar Page](https://scholar.google.co.kr/citations?user=RylQWMgAAAAJ&hl=ko)
+### International Journals
+1. Hwang, J., Kim, J., Ahmadi, A., Choi, M., & Tani, J. (2018). Dealing With Large-Scale Spatio-Temporal Patterns in Imitative Interaction Between a Robot and a Human by Using the Predictive Coding Framework. *IEEE Transactions on Systems, Man, and Cybernetics: Systems*, (99), 1-14. [Link](https://ieeexplore.ieee.org/document/8276651)
+2. Hwang, J., & Tani, J. (2018). Seamless integration and coordination of cognitive skills in humanoid robots: A deep learning approach. *IEEE Transactions on Cognitive and Developmental Systems*, *10*(2), 345-358. [Link](https://ieeexplore.ieee.org/abstract/document/7945519) / [arXiv](https://arxiv.org/abs/1706.02423)
+3. Hwang, J., & Lee, K. C. (2015). Exploring the effect of a user’s personality traits on tactile communication with a robot using Bayesian networks. _Interaction Studies_, 16(1), 29-53 [Link](http://www.ingentaconnect.com/content/jbp/is/2015/00000016/00000001/art00002?crawler=true) / [PDF](http://mulkkyul.byus.net/publication/hwang_IS2015.pdf)
+4. Jung, M., Hwang, J., & Tani, J. (2015). Self-Organization of Spatio-Temporal Hierarchy via Learning of Dynamic Visual Image Patterns on Action Sequences. _PloS one_, 10(7), e0131214. [Link](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131214)
+
+### International Conferences
+1. Hwang, J., Wirkuttis, N., & Tani, J. (2019, March). A Neurorobotics Approach to Investigating the Emergence of Communication in Robots. In *2019 14th ACM/IEEE International Conference on Human-Robot Interaction (HRI)* (Poster Presentation, pp. 622-623). IEEE.
+2. Wirkuttis, N., Hwang, J. & Tani, J. (2018). Spontaneous Shifts of Social Alignment in Synthetic Robot-Robot Interaction. Presented at the workshop on BODIS: The utility of body, interaction and self learning in robotics.
+3. Hwang, J., & Tani, J. (2018). A Dynamic Neural Network Approach to Generating Robot's Novel Actions: A Simulation Experiment. Presented at *The 15th International Conference on Ubiquitous Robots (formerly Ubiquitous Robots and Ambient Intelligence (URAI)*. [arXiv](https://arxiv.org/abs/1805.05537)
+4. J. Hwang, J. Kim, A. Ahmadi, M, Choi and J. Tani. (2017). Predictive Coding-based Deep Dynamic Neural Network for Visuomotor Learning. Presented at the 7th Joint IEEE International Conference of Developmental Learning and Epigenetic Robotics (ICDL-EpiRob 2017) [arXiv](https://arxiv.org/abs/1706.02444)
+5. Hwang, J., Jung, M., Kim, J. & Tani, J. (2016). A Deep Learning Approach for Seamless Integration of Cognitive Skills for Humanoid Robots. In 2016 The Sixth Joint IEEE International Conference Developmental Learning and Epigenetic Robotics (ICDL-EPIROB), Cergy-Pontoise, France. [PDF](http://mulkkyul.byus.net/publication/ICDL2016.pdf)
+6. Hwang, J., Jung, M., Madapana, N., Kim, J., Choi, M., & Tani, J. (2015). Achieving "synergy" in cognitive behavior of humanoids via deep learning of dynamic visuo-motor-attentional coordination. In 2015 IEEE-RAS 15th International Conference on Humanoid Robots (Humanoids), pp. 817-824. IEEE. [Link](http://ieeexplore.ieee.org/xpls/icp.jsp?arnumber=7363448)
+7. Jung, M., Hwang, J., & Tani, J. (2014). Multiple spatio-temporal scales neural network for contextual visual recognition of human actions. In 2014 Joint IEEE International Conferences on Development and Learning and Epigenetic Robotics (ICDL-Epirob), pp. 235-241. IEEE. [Link](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6982987)
+8. Hwang, J., Kim, M. G., & Cho, K. (2013). Developing interaction scenarios of robot-mediated imitation training for children with Autism Spectrum Disorders. In 2013 IEEE RO-MAN, pp. 616-620. IEEE. [Link](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6628416)
+9. Hwang, J., & Lee, K. C. (2013). Exploring Potentials of Personality Matching between Users and Target Systems by Using Fuzzy Cognitive Map. In 2013 46th Hawaii International Conference on System Sciences (HICSS), pp. 417-424. IEEE. [Link](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6479884)
+10. Hwang, J., Lee. K. C., Jeong, J. (2012). Examining the Impact of a User’s Previous Experience with Pets on Robot-Assisted Therapy. In Computer Applications for Graphics, Grid Computing, and Industrial Environment (pp. 339-346). Springer Berlin Heidelberg. [Link](https://link.springer.com/chapter/10.1007/978-3-642-35600-1_49)
+11. Hwang, J., Lee. K. C., Jeong., J. (2012). A Bayesian network approach to investigating user-robot personality matching. In proceedings of the 8th international conference on Active Media Technology 2012. 4-7 Dec. Macau, China. [Link](http://link.springer.com/chapter/10.1007%2F978-3-642-35236-2_13?LI=true)
+12. Chae, S. W., Hwang, J., Lee. K. C. (2012). General Bayesian Network in Performing Micro-reality Mining with Mobile Phone Usage Data for Device Personalization. Computer Applications for Bio-technology, Multimedia, and Ubiquitous City Communications in Computer and Information Science 2012, pp 381-388 [Link](https://link.springer.com/chapter/10.1007/978-3-642-35521-9_56)
+13. Hwang, J., Lee. K. C. (2013). Examining the Effect of Short-Term Robot-Mediated Training for Creativity Education. K.C. Lee (ed.), Digital Creativity: Individuals, Groups, and Organizations, Integrated Series in Information Systems 32. Springer Science+ Business Media New York 2013. [Link](http://rd.springer.com/chapter/10.1007/978-1-4614-5749-7_9)
+14. Hwang, J., & Cho, K. (2012). Designing vibrotactile devices for teaching English intonation. In Proceedings of the 6th International Conference on Ubiquitous Information Management and Communication (pp. 1-4). Kuala Lumpur, Malaysia: ACM. [Link](http://dl.acm.org/citation.cfm?id=2184751.2184869)
+15. Hwang, J., Chung, K., Hyun, J., Ryu, J., & Cho, K. (2012). Development and Evaluation of an In-Vehicle Haptic Navigation System. In J. H. Park, J. Kim, D. Zou & Y. S. Lee (Eds.), Information Technology Convergence, Secure and Trust Computing, and Data Management (Vol. 180, pp. 47-53): Springer Netherlands. [Link](http://rd.springer.com/chapter/10.1007/978-94-007-5083-8_8)
+16. Kim, M., Hwang, J., & Cho, K. (2012). Evaluating Multisensory Learning System for Teaching English Intonation. In J. J. Park, Q. Jin, M. Sang-soo Yeo & B. Hu (Eds.), Human Centric Technology and Service in Smart Space (Vol. 182, pp. 43-50): Springer Netherlands. [Link](https://link.springer.com/chapter/10.1007%2F978-94-007-5086-9_6)
+17. Hyun, J., Hwang, J., Ryu J., & Cho, K. (2011). Effect of Spatial Haptic Cues on Visual Attention in Driving. Automotive UI 2011. Salzburg, Austria. [PDF](http://mulkkyul.byus.net/publication/clw2011_hyun_et_al.pdf)
+18. Hwang, J. & Cho, K. (2011). A Multi-sensory Teaching of English Intonation using Vibrotactile Devices. In Proceedings of the International Conference on Media in Education, Seoul, Korea. [PDF](http://mulkkyul.byus.net/publication/hwang_ICOME2011.pdf)
+
+
+### Patents
+1. Jun, T., Jung, M. Hwang, J. Learnable Dynamic Visual Image Pattern Recognition System and Method. Korea Patent  10-1563569, October 21 2015
+2. Cho, K., Hwang, J. English Intonation Learning System Using a Vibrotactile Device. Korea Patent 10-1216297, December 28 2012.
+
+
+## Honors and Award
+
+##### Distinguished Poster Award
+Oct 2016, The Sixth Joint IEEE International Conference Developmental Learning and Epigenetic Robotics (ICDL-EPIROB)
+Paper: A Deep Learning Approach for Seamless Integration of Cognitive Skills for Humanoid Robots [PDF](http://mulkkyul.byus.net/publication/ICDL2016.pdf)
+
+
+##### Research Scholarship for Excellent Undergraduates
+May 2010 – Feb 2011, School of Information and Communication Engineering, Sungkyunkwan University
+
+##### 1st Place at Graduation Portfolio Contest
+Nov 2010, School of Information and Communication Engineering, Sungkyunkwan University
+Topic: Smart driving in a ubiquitous city
+
+##### Academic Excellence Scholarship
+Sep 2010, School of Information and Communication Engineering, Sungkyunkwan University
+
+##### Qualified Works at Preliminary Contest
+Oct 2009, 7th The World Embedded Software Contest 2009, Republic of Korea
+Topic: ESOP V2 (a mobile robot with EaSy OPeration)
+
+##### Silver Prize
+Aug 2009, The 3rd International Robot Software Conference & Competition 2009, Korea University
+Topic: Development of a mobile robot with easy operation (ESOP)
+
+
+## Research Project Experience
+##### Development of HRI Technologies for Human-friendly Robot Service Environments
+- Jun 2012 – May 2013
+- Research Project with the Ministry of Knowledge Economy (MKE), Korea
+- Research assistant, Department of Interaction Science, Sungkyunkwan University
+  -- Analyzing 1:1 human-human interaction in the tutoring context (video-coding and task
+  analysis)
+  -- Developing service scenarios and writing pseudo-codes for a robot tutor
+
+##### Interaction science: Creative convergence of humans, robots, computers and digital media
+- Mar 2011 – Aug 2013 
+- Research project with Ministry of Education, Science and Technology 
+- Research assistant, Department of Interaction Science, Sungkyunkwan University
+  -- Human robot tactile interaction and robot-driven creativity training
+  -- Using vibrotactile cues to teach English intonation and for driver assistance system
+
+
+##### Development of UX scenarios to enhance accessibility of smartphones
+- Jun 2012 – Aug 2012 
+- Academic-industrial cooperation project with Samsung Electronics
+- Research assistant, Department of Interaction Science, Sungkyunkwan University
+  -- Participated in in-depth interview with physically handicapped users
+  -- Evaluating the accessibility of existing smartphones
+  -- Developing personas and scenarios for enhancing accessibility
+
+##### Human-centered Interaction for Coexistence
+- Mar 2011 – Aug 2011 
+- R&D Program with Ministry of Education, Science and Technology
+- Research assistant, Department of Interaction Science, Sungkyunkwan University
+  -- Literature review on cognitive architectures and therapeutic robots
+
+##### Quickple,a social networking service
+- Dec 2010 – Jan 2011 
+- Two-month internship, We Interactive, Inc.
+  -- Literature review on the methods for ranking and recommending tweets on Twitter
+
+
+## Skills
+- Programming with C, C++, Matlab and Python
+- Embedded system design using micro-controllers (AVR, ARM, Arduino, etc.)
+- Social science research and task analysis method
+- Statistical analysis with SPSS and JMP
+- Misc.: Microsoft Office Word, Excel, Power Point, HTML & Web design software, WEKA (Data mining tool), Adobe Photoshop, e-prime, Tobii Studio (eye-tracking software for analysis)
+
+## Language
+Korean: Native
+English: Advanced (academic discussion, research meeting and technical reports) 
+
+## Activities
+##### Exchange student in Jaume I University, Castellon, Spain
+- Jan 2012 – Feb 2012 
+- International exchange student program, Sungkyunkwan University
+
+##### Member of an undergraduate robotics club
+- Mar 2003 - Feb 2011 
+- Sungkyunkwan Institute of Robots (S.I.O.R.), Sungkyunkwan University
+
+##### Participated in an National Exhibition for University Representative
+- 2010 Sep 
+- 2010 Hanium EXPO & Festival, COEX, Seoul, Republic of Korea
+
+##### Member of Project team for 2010 Intelligence Model Car Contest
+- 2008, 2010 
+- Sungkyunkwan Institute of Robots (S.I.O.R.), Sungkyunkwan University
+
+##### Member of ‘FRIENDS’
+- 2009 Dec – 2010 Feb 
+- Voluntary work for Exchange Students, Sungkyunkwan University
+
+##### Vice President
+- 2009 Jan – 2009 Dec 
+- Sungkyunkwan Institute of Robots (S.I.O.R.), Sungkyunkwan University
+
+##### Team Leader of a Project team for 2009 Intelligence Model Car Contest
+- 2009 July 
+- Sungkyunkwan Institute of Robots (S.I.O.R.), Sungkyunkwan University 
