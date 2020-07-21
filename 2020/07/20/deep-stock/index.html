@@ -22,7 +22,7 @@
 <meta property="og:image" content="http://mulkkyul.github.io/2020/07/20/deep-stock/init.png">
 <meta property="og:image" content="http://mulkkyul.github.io/2020/07/20/deep-stock/afterTraining.png">
 <meta property="og:image" content="http://mulkkyul.github.io/2020/07/20/deep-stock/samsung.png">
-<meta property="og:updated_time" content="2020-07-21T12:02:47.725Z">
+<meta property="og:updated_time" content="2020-07-21T12:06:36.185Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="LSTM+Initial States로 주가 변화가 비슷한 회사 알아보기">
 <meta name="twitter:description" content="작년부터 수입이 생기다보니 자연스럽게 재테크에 관심을 가지게 되었다. 그리고 대부분의 사람이 그러하듯, 주식에 관심을 가지고 fundamental 분석, 재무정보 분석, 그리고 심지어 차트 분석 기술 등 이런저런 것들을 기웃거려보았다.">
@@ -266,11 +266,11 @@
 <div class="figure " style="width:;"><img class="fig-img" src="samsung.png" alt="삼성전자는 빨간색으로 표시되어 있다. 색깔은 삼성전자 주식과의 correlation coefficient를 나타낸다."><span class="caption">삼성전자는 빨간색으로 표시되어 있다. 색깔은 삼성전자 주식과의 correlation coefficient를 나타낸다.</span></div>
 <p>시각화를 하니, 확실히 어떤 회사들이 서로 비슷한 동향을 보였는지 잘 보인다. 위 그림에서 보이는 것처럼 잠재공간의 비슷한 곳에 위치한 주식들은 서로 비슷한 주가 동향을 보인다. 분산 투자를 위해서는 서로 다른 동향을 보이는 애들로 포트폴리오를 구성하면 되겠지. (<del>그리고 한 방을 위해서는 비슷한 동향을 보이는 애들로 몰빵을..</del>)</p>
 <h2 id="그래서-분산투자"><a href="#그래서-분산투자" class="headerlink" title="그래서 분산투자?"></a>그래서 분산투자?</h2><p>아직 이 프로젝트에서 분석한 방법으로 분산투자를 하지는 못하고 있다. 시총규모라던지, lagged correlation이라던지 하는 것을 조금 더 고려해서 실제로 해볼 생각이다 (<del>근데 백만원도 분산투자하는게 맞는건가</del>)</p>
+<h2 id="사실은"><a href="#사실은" class="headerlink" title="사실은.."></a>사실은..</h2><p>주식 그 자체보다는 다양한 time series 데이터가 LSTM + Initial States로 represent 될 수 있고, 이를 이용하여 time series간의 similarity 비교라는 제법 tough한 task에 사용될 수 있음을 보여주고 싶었다. stock data는 그 예중에 하나였고.. </p>
 <h2 id="마무리"><a href="#마무리" class="headerlink" title="마무리"></a>마무리</h2><p>마무리는 주식에 관한 오랜 격언으로 마친다.</p>
 <blockquote>
 <p>“10월은 주식투자에 있어서 특히 위험한 달 중 하나다. 다른 위험한 달로는 7월, 1월, 9월, 4월, 11월, 5월, 3월, 6월, 12월, 8월, 그리고 2월이 있다.” - 마크 트웨인</p>
 </blockquote>
-<p>덧.</p>
 <p>이 말은 실제로 마크 트웨인의 얼간이 윌슨 (Pudd’nhead Wilson)에 등장하는 말이라고 한다. 그리고 이 말에서 비롯한 <a href="https://en.wikipedia.org/wiki/Mark_Twain_effect" target="_blank" rel="external">마크 트웨인 효과 (Mark Twain effect)</a> - 10월이 다른 달보다 주가가 낮은 현상 - 란 말도 있다.</p>
 <div class="alert info"><p>이 프로젝트에 사용했던 코드는 아래 github에서 다운로드 받을 수 있다.</p>
 <p><a href="https://github.com/mulkkyul/lstm-initStates" target="_blank" rel="external">https://github.com/mulkkyul/lstm-initStates</a></p>
@@ -775,9 +775,41 @@
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
-        </script><!-- hexo-inject:begin --><!-- hexo-inject:end -->
+        </script>
     
 
 
-    </body>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script><!-- hexo-inject:begin --><!-- Begin: Injected MathJax -->
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config("");
+</script>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i=0; i < all.length; i += 1) {
+      all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+  });
+</script>
+
+<script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<!-- End: Injected MathJax -->
+<!-- hexo-inject:end -->
+</body>
 </html>
